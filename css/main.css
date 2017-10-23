@@ -59,6 +59,7 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+
 }
 
 a:hover {
@@ -70,4 +71,277 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+body{
+  font-family: Raleway;
+}
+header{ /* menú*/
+  position: fixed;
+  width: 1300px;
+  background-color: white;
 
+}
+header div .logo{ /* primer logo */
+  width: 5.5%;
+  margin-bottom: 10px;
+  margin-left: 600px;
+}
+
+div a:nth-child(1){ /* services */
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 160px;
+}
+
+div a:nth-child(2){ /* work */
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+div a:nth-child(3){ /* the team */
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.primerafoto{
+  margin-top:65px;
+}
+
+.uno{ /* texto sobre la primera foto */
+  text-transform: uppercase;
+  font-size:15px;
+  font-weight: 700;
+  width: 1300px;
+  color: white;
+  margin-top: -450px;
+  text-align: center;
+}
+
+.uno h1{ /* we are aprove...*/
+  text-transform: uppercase;
+  font-size:50px;
+  font-weight: 700;
+  width: 1300px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.uno p{ /* subtexto */
+  text-transform: uppercase;
+  font-size:15px;
+  font-weight: 200;
+  width: 1300px;
+  color: white;
+  margin-top: -40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.uno a{ /* view services */
+  text-transform: uppercase;
+  background-color: #56e279;
+  font-size:14px;
+  font-weight: 200;
+  width: 180px;
+  height: 63px;
+  padding: 15px 12px;
+  color: white;
+  margin-left: -20px;
+  text-align: center;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+section div a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.dos{ /* color peach */
+ background-color:#f57164;
+ top: 1500px;
+ width: 1300px;
+ height: 800px;
+ padding: 200px;
+}
+
+.dos div h2{
+  font-size: 35px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.dos div h4{
+  font-size: 15px;
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+}
+
+.dos div img{ /* foto circulo 1 */
+  width: 22%;
+  margin-top: 35px;
+}
+
+.dos div h5{ /* user interface design */
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+.dos div h6{ /* Wireframing,Prototyping,Usability testing */
+  color: white;
+  margin-left: -730px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.dos div .circulo2{ /* foto circulo 2*/
+  width: 22%;
+  margin-top: -430px;
+  margin-left: 350px;
+}
+.dos .infoservicios2 h5{ /* titulo concept and ideas*/
+  text-transform: uppercase;
+  color: white;
+  margin-left: 380px;
+  margin-top: -105px;
+  margin-bottom: 0;
+}
+
+.dos .infoservicios2 h6{ /*Conceptualization,Digital Branding..*/
+  color: white;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+.dos div .circulo3{ /* foto circulo 3*/
+  width: 22%;
+  margin-top: -430px;
+  margin-left: 690px;
+}
+
+.dos .infoservicios3 h5{ /* desing and brandings*/
+  text-transform: uppercase;
+  color: white;
+  margin-left: 710px;
+  margin-top: -105px;
+  margin-bottom: 0;
+}
+
+.dos .infoservicios3 h6{ /*Interaction Design,Graphic Design..*/
+  color: white;
+  margin-left:680px;
+  padding: 0;
+  text-align: center;
+}
+
+.terceraparte{ /* texto e imagenes */
+  width: 1300px;
+  height: 800px;
+  text-transform: uppercase;
+  color: #000;
+  width: 1300px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.terceraparte h2{
+  font-size: 35px;
+  padding-top: 80px;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+}
+
+.terceraparte h4{
+  text-transform: lowercase;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.terceraparte .compu{ /*compu central*/
+  width: 73%;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+.terceraparte .cuadrado1 {
+  margin: 20px 35px 0px 45px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado2 {
+  margin: 20px 35px 0 30px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado3 {
+  margin: 20px 10px 0 30px;
+  width: 23%;
+}
+
+ul li{ /* subtextos */
+  list-style: none;
+  float: left;
+  color: #444444;
+  padding: 6px 10px 0 167px;
+}
+strong{
+  color: #444444;
+}
+
+.terceraparte .cuadrado4 {
+  margin: 70px 35px 0px 45px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado5 {
+  margin: 70px 35px 0 30px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado6 {
+  margin: 70px 10px 0 30px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado7 {
+  margin: 70px 35px 0px 45px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado8 {
+  margin: 70px 35px 0 30px;
+  width: 23%;
+}
+
+.terceraparte .cuadrado9 {
+  margin: 70px 10px 0 30px;
+  width: 23%;
+}
+
+footer p{
+  width: 1300px;
+  height: 60px;
+  margin-top: 1500px;
+  margin-bottom: 0;
+  background-color: #3b3a49;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
